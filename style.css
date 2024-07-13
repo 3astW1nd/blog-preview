@@ -1,0 +1,68 @@
+hmtl, body{
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background-color: hsl(47, 88%, 63%);
+}
+
+.mainContainer {
+    background-color: hsl(47, 88%, 63%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.card {
+    width: 380px;
+    height: 500px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 25px;
+    background-color: white;
+    box-shadow: 12px 12px 0 0;
+    padding: 1.4rem;
+}
+
+.learningBlock {
+    padding: 0.3rem 0.7rem;
+    font-weight: bold;
+    width: fit-content;
+    margin-top: 5%;
+    margin-bottom: 4%;
+    border-radius: 5px;
+    background-color: hsl(47, 88%, 63%);
+}
+
+.headingBlock {
+    margin: 0;
+    padding: 1rem 0rem;
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+}
+
+.headingBlock:hover {
+    color:hsl(47, 88%, 63%);
+}
+
+p {
+    margin: 0;
+    font-size: 19px;
+    font-weight: lighter;
+}
+
+.profileClass {
+    display: flex;
+    padding: 1rem 0rem;
+}
+
+.nameClass {
+    padding: 1rem 1rem;
+    width:fit-content;
+    height: fit-content;
+    font-weight: bold;
+}
